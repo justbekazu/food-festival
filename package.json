@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "start:dev": "webpack-dev-server"
+
   },
   "repository": {
     "type": "git",
@@ -20,12 +22,15 @@
   "homepage": "https://github.com/justbekazu/food-festival#readme",
   "dependencies": {
     "bootstrap": "^5.0.1",
+    "image-webpack-loader": "^7.0.1",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "webpack": "^5.39.1",
     "webpack-cli": "^4.7.2"
   },
   "devDependencies": {
-    "webpack-bundle-analyzer": "^4.4.2"
+    "file-loader": "^6.2.0",
+    "webpack-bundle-analyzer": "^4.4.2",
+    "webpack-dev-server": "^3.11.2"
   }
 }
